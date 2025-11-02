@@ -12,7 +12,6 @@ readme = "README.md"
 authors = [{ name = "Farhan Hasin Chowdhury", email = "shovik.is.here@gmail.com" }]
 license = { file = "LICENSE" }
 classifiers = [
-    "License :: OSI Approved :: GPL-3.0 License",
     "Programming Language :: Python :: 3",
 ]
 keywords = []
@@ -26,4 +25,5 @@ dev = ["pip-tools"]
 Homepage = "https://github.com/fhsinchy/rmbyext"
 
 [project.scripts]
+
 rmbyext = "rmbyext:main"
