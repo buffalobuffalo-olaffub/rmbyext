@@ -10,9 +10,8 @@ version = "1.0.0"
 description = "recursively removes all files of given extension(s)"
 readme = "README.md"
 authors = [{ name = "Farhan Hasin Chowdhury", email = "shovik.is.here@gmail.com" }]
-license = { file = "LICENSE" }
+license = "Apache-2.0"
 classifiers = [
-     license = "Apache-2.0"
     "Programming Language :: Python :: 3",
 ]
 keywords = []
@@ -28,4 +27,5 @@ Homepage = "https://github.com/fhsinchy/rmbyext"
 [project.scripts]
 
 rmbyext = "rmbyext:main"
+
 
